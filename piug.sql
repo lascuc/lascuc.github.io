@@ -1,10 +1,9 @@
-<--!
 -- phpMyAdmin SQL Dump
 -- version 3.4.8
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 05, 2012 at 04:51 PM
+-- Generation Time: Feb 05, 2013 at 04:51 PM
 -- Server version: 5.0.41
 -- PHP Version: 5.3.8
 
@@ -37,4 +36,3 @@ CREATE TABLE IF NOT EXISTS `mesaj` (
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
--->
