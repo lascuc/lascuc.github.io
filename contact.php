@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<php
+<?php
 $username="a";
 $database="piug";
 mysql_connect("localhost",$username) or die ("Nu se poate conecta la serverul MySQL");
@@ -15,7 +15,7 @@ $result=mysql_query($query);
 $num=mysql_numrows($result);
 mysql_close();
 $i=0;
->
+?>
 
 <html>
 <head>
