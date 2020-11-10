@@ -1,25 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!--<?php
-$username="a";
-$database="piug";
-mysql_connect("localhost",$username) or die ("Nu se poate conecta la serverul MySQL");
-mysql_select_db($database) or die("Nu se poate deschide baza de date");
-$nume=$_POST['Nume'];
-$email=$_POST['email'];
-$mesaj=$_POST['mesaj'];
-if ($nume <> "" & $email <> "" & $mesaj <> "") {
-$query=mysql_query("insert into mesaj values ('$nume','$email','$mesaj',now())");
-}
-$query="select nume,mesaj,time(date),date(date) from mesaj";
-$result=mysql_query($query);
-$num=mysql_numrows($result);
-mysql_close();
-$i=0;
-?>-->
+
 
 <html>
 <head>
-<title>Ivan's Photos - Contact & Mesaje</title>
+<title>Doru's gallery- Contact & Mesaje</title>
 <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 <meta name="generator" content="Web Page Maker">
 <style type="text/css">
@@ -90,32 +74,32 @@ body {text-align:center;margin:0}
 <hr size=3 width=354 color="#E7EEFF">
 </div>
 
-<div id="g_text1" style="position:absolute; overflow:hidden; left:12px; top:103px; width:200px; height:138px; z-index:5">
+<div id="g_text1" style="position:absolute; overflow:hidden; left:12px; top:103px; width:200px; height:138px; z-index:15">
 <div class="wpmd">
-<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="index.html" title="Ivan's Photos" class="style1">Prima pagina</a></B></font></div>
+<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="index.html" title="Doru's Gallery" class="style1">Prima pagina</a></B></font></div>
 <div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font></div>
-<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="despre.html" title="Ivan's Photos - Despre mine" class="style1">Despre mine</a></B></font></div>
+<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="despre.html" title="Doru's Gallery - Biografie" class="style1">Biografie</a></B></font></div>
 <div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font></div>
-<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="poze.html" title="Ivan's Photos - Pozele mele" class="style1">Pozele mele</a></B></font><font color="#84ACFF" face="Tahoma" class="ws8"><B> </B></font></div>
+<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="poze.html" title="Doru's Gallery - Lucrari" class="style1">Lucrari</a></B></font><font color="#84ACFF" face="Tahoma" class="ws8"><B> </B></font></div>
 <div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font></div>
-<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="echipament.html" title="Ivan's Photos - Echipament" class="style1">Echipament</a></B></font></div>
+<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="materiale.html" title="Doru's Gallery - Materiale" class="style1">Materiale</a></B></font></div>
 <div><font color="#84ACFF" face="Tahoma"><B><BR></B></font></div>
-<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="contact.php" title="Ivan's Photos - Contact" class="style1">Contact &amp; Mesaje</a></B></font></div>
+<div><font color="#84ACFF" face="Tahoma" class="ws8"><B>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </B></font><font face="Tahoma" class="ws8"><B><a href="contact.php" title="Doru's Gallery - Contact" class="style1">Contact &amp; Mesaje</a></B></font></div>
 </div></div>
 
 <div id="g_text2" style="position:absolute; overflow:hidden; left:394px; top:691px; width:351px; height:48px; z-index:6">
 <div class="wpmd">
-<div><font color="#333333" face="Tahoma" class="ws8"> Copyright 2012 Ivan LASZIK. All rights reserved.</font></div>
+<div><font color="#333333" face="Tahoma" class="ws8"> Copyright 2013 Galeria Online. All rights reserved.</font></div>
 <div> </div>
 <div><BR></div>
 </div></div>
 
 <div id="text1" style="position:absolute; overflow:hidden; left:301px; top:101px; width:432px; height:135px; z-index:7">
 <div class="wpmd">
-<div><font color="#FF9900"><B>Ivan's Photos</B></font></div>
+<div><font color="#FF9900"><B>Doru's Gallery</B></font></div>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 <div align=justify><font color="#808080" face="Tahoma" class="ws8">Bun venit,</font></div>
-<div align=justify><font color="#808080" face="Tahoma" class="ws8">Ma numesc Ivan, sunt fotograf, si prin intermediul acestui site doresc sa impart cu tine pozele facute de mine si sa iti povestesc putin despre mine.</font></div>
+<div align=justify><font color="#808080" face="Tahoma" class="ws8">Ma numesc Doru Boboc, practic pictura ca hobby, si prin intermediul acestui site doresc sa va prezint o parte din lucrarile mele si sa va introduc putin in domeniul picturii.</font></div>
 </div></div>
 
 <div id="text3" style="position:absolute; overflow:hidden; left:176px; top:246px; width:394px; height:22px; z-index:8">
@@ -124,7 +108,7 @@ body {text-align:center;margin:0}
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
 
-<form name="mesaj" method="post" action="contact.php">
+<form name="mesaj" method="post" action="http://localhost/raluca/contact.php">
 <input name="Nume" type="text" maxlength=22 style="position:absolute;width:138px;left:173px;top:302px;z-index:9">
 <div id="text2" style="position:absolute; overflow:hidden; left:173px; top:287px; width:137px; height:18px; z-index:10">
 <div class="wpmd">
@@ -145,10 +129,27 @@ body {text-align:center;margin:0}
 <textarea name="mesaj" style="position:absolute;left:173px;top:415px;width:200px;height:181px;z-index:14"></textarea>
 <input name="trimite" type="submit" value="Trimite" style="position:absolute;left:245px;top:617px;z-index:15">
 </form>
+<?php
+$username="a";
+$database="piug";
+mysql_connect("localhost","root") or die ("Nu se poate conecta la serverul MySQL");
+mysql_select_db($database) or die("Nu se poate deschide baza de date");
+$nume=$_POST['Nume'];
+$email=$_POST['email'];
+$mesaj=$_POST['mesaj'];
+if ($nume != "" & $email != "" & $mesaj != "") {
+$query=mysql_query("insert into mesaj values ('$nume','$email','$mesaj',now())");
+}
+$query="select nume,mesaj,time(date),date(date) from mesaj";
+$result=mysql_query($query);
+$num=mysql_numrows($result);
+mysql_close();
+$i=0;
+?>
 </div>
-<div style="position:absolute;overflow:auto;width:335px;height:380px;left:995px;top:284px">
+<div style="position:absolute;overflow:auto;width:335px;height:380px;left:655px;top:300px">
 <table cellspacing="5">
-<!--<?php
+<?php
 while ($i<$num)
 {
 $nume1=mysql_result($result,$i,"nume");
@@ -167,7 +168,7 @@ $date=mysql_result($result,$i,"date(date)");
 <?php
 $i++;
 }
-?>	-->
+?>	
 </table>
 </div>
 </body>
