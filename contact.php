@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<?php
+<!--<?php
 $username="a";
 $database="piug";
 mysql_connect("localhost",$username) or die ("Nu se poate conecta la serverul MySQL");
@@ -15,7 +15,7 @@ $result=mysql_query($query);
 $num=mysql_numrows($result);
 mysql_close();
 $i=0;
-?>
+?>-->
 
 <html>
 <head>
@@ -148,7 +148,7 @@ body {text-align:center;margin:0}
 </div>
 <div style="position:absolute;overflow:auto;width:335px;height:380px;left:995px;top:284px">
 <table cellspacing="5">
-<?php
+<!--<?php
 while ($i<$num)
 {
 $nume1=mysql_result($result,$i,"nume");
@@ -167,7 +167,7 @@ $date=mysql_result($result,$i,"date(date)");
 <?php
 $i++;
 }
-?>	
+?>	-->
 </table>
 </div>
 </body>
