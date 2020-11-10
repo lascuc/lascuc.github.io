@@ -1,22 +1,4 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<?php
-$username="a";
-$database="piug";
-mysql_connect("localhost",$username) or die ("Nu se poate conecta la serverul MySQL");
-mysql_select_db($database) or die("Nu se poate deschide baza de date");
-$nume=$_POST['Nume'];
-$email=$_POST['email'];
-$mesaj=$_POST['mesaj'];
-if ($nume <> "" & $email <> "" & $mesaj <> "") {
-$query=mysql_query("insert into mesaj values ('$nume','$email','$mesaj',now())");
-}
-$query="select nume,mesaj,time(date),date(date) from mesaj";
-$result=mysql_query($query);
-$num=mysql_numrows($result);
-mysql_close();
-$i=0;
-?>
-
 <html>
 <head>
 <title>Ivan's Photos - Contact & Mesaje</title>
@@ -164,6 +146,23 @@ $date=mysql_result($result,$i,"date(date)");
 <td  colspan="2"><font color="#808080" face="Tahoma" class="ws8"><?php echo $mesaj1; ?><font></td>
 </tr>
 <tr></tr><tr></tr><tr></tr>
+<?php
+$username="a";
+$database="piug";
+mysql_connect("localhost",$username) or die ("Nu se poate conecta la serverul MySQL");
+mysql_select_db($database) or die("Nu se poate deschide baza de date");
+$nume=$_POST['Nume'];
+$email=$_POST['email'];
+$mesaj=$_POST['mesaj'];
+if ($nume <> "" & $email <> "" & $mesaj <> "") {
+$query=mysql_query("insert into mesaj values ('$nume','$email','$mesaj',now())");
+}
+$query="select nume,mesaj,time(date),date(date) from mesaj";
+$result=mysql_query($query);
+$num=mysql_numrows($result);
+mysql_close();
+$i=0;
+?>
 <?php
 $i++;
 }
