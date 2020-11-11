@@ -16,7 +16,6 @@ $num=mysql_numrows($result);
 mysql_close();
 $i=0;
 ?> -->
-
 <html>
 <head>
 <title>Titlu website - Contact & Mesaje</title>
@@ -123,14 +122,12 @@ body {text-align:center;margin:0}
 <div><font color="#FF9900"><B>Lasa un mesaj&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Istoric mesaje</B></font></div>
 <div><font color="#808080" face="Tahoma" class="ws8"><BR></font></div>
 </div></div>
-
-<form name="mesaj" method="post" action="contact.html">
+<form name="mesaj" method="post" action="mail.php">
 <input name="Nume" type="text" maxlength=22 style="position:absolute;width:138px;left:173px;top:302px;z-index:9">
 <div id="text2" style="position:absolute; overflow:hidden; left:173px; top:287px; width:137px; height:18px; z-index:10">
 <div class="wpmd">
 <div><font face="Tahoma" class="ws8">Nume:</font></div>
 </div></div>
-
 <div id="text4" style="position:absolute; overflow:hidden; left:173px; top:345px; width:137px; height:18px; z-index:11">
 <div class="wpmd">
 <div><font face="Tahoma" class="ws8">E-mail (nu va fi afisat):</font></div>
@@ -140,7 +137,6 @@ body {text-align:center;margin:0}
 <div class="wpmd">
 <div><font face="Tahoma" class="ws8">Mesaj:</font></div>
 </div></div>
-
 <input name="email" type="text" maxlength=50 style="position:absolute;width:138px;left:173px;top:360px;z-index:13">
 <textarea name="mesaj" style="position:absolute;left:173px;top:415px;width:200px;height:181px;z-index:14"></textarea>
 <input name="trimite" type="submit" value="Trimite" style="position:absolute;left:245px;top:617px;z-index:15">
